@@ -1,0 +1,80 @@
+﻿body {
+    /*behavior:url("csshover3.htc")*/
+}
+header{
+
+}
+footer{
+
+}
+nav > ul {
+    background-color: rgb(230, 230, 230);
+    list-style: none; /* 移除項目符號 */
+    margin: 0;
+    padding: 0;
+}
+nav a {
+    color: inherit; /* 移除超連結顏色 */
+    display: block; /* 讓 <a> 填滿 <li> */
+    font-size: 1.2rem;
+    padding: 10px;
+    text-decoration: none; /* 移除超連結底線 */
+}
+/* 滑鼠移到 <a> 時變成深底淺色 */
+nav li:hover {
+    background-color: rgb(115, 115, 115);
+    color: white;
+}
+.flex-nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav > ul > li > ul {
+    background-color: rgb(230,230,230);
+    color: black;
+    list-style: none;
+    position: absolute;
+    display: none;
+    margin: 0;
+    padding: 0;
+}
+nav > ul > li > ul > li {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+nav > ul > li:hover > a + ul { /*滑鼠劃過一級選單的時候二級選單顯示*/
+    display: block;
+}
+a {
+    text-decoration: none; /* 移除超連結底線 */
+    color: black; /* 超連結顏色 */
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    position:absolute;
+    left:10px;
+}
+.card {
+    /* 設定父親定位點 */
+    position: relative;
+    width: 260px;
+    float: left;
+    margin: 5px;
+}
+.info {
+    /*   display: none; */
+    opacity: 0;
+    position: absolute;
+    box-sizing: border-box;
+    background-color: rgba(0,0,0,.3);
+    top: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 25px;
+}
+
