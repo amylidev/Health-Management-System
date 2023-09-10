@@ -10,7 +10,7 @@
 
 
 
-![iCareÜ專題](https://drive.google.com/file/d/1XQLcn_Lqau7_OvJKxaXmcbzq5uvZzYTB/view?usp=drive_link)
+![iCareÜ專題](登入iCareU.png)
 
 ## 功能
 
@@ -21,10 +21,10 @@
 - [x] 查詢血壓/血糖趨勢圖
 - [x] 衛教小學堂
 - [x] 醫病聊天室
+- [x] 登記回診間隔
 - [x] 註冊個人資料
 - [x] 修改個人資料
-- [x] 修改帳號密碼
-- [x] 登記回診間隔
+<!-- - [x] 修改帳號密碼 -->
 ...
 
 ## 專案技術
@@ -35,6 +35,4 @@
 - CSS
 - JavaScript
 - MS SQL Server
-...
 
-  
